@@ -35,4 +35,4 @@ const useFetch = <T>(fetchFunction: () => Promise<T>, autoFetch = true) => {
     return {data, loading, error, relfect: fetchData, reset}
 }
 
-export default useEffect
+export default useFetch
